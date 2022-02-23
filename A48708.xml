@@ -1,0 +1,703 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A letany for St. Omers</title>
+            <author>Lister, Martin, 1638?-1712.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1682</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 12 KB of XML-encoded text transcribed from 2 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A48708</idno>
+            <idno type="STC">Wing L2532</idno>
+            <idno type="STC">ESTC R21434</idno>
+            <idno type="EEBO-CITATION">12406259</idno>
+            <idno type="OCLC">ocm 12406259</idno>
+            <idno type="VID">61401</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A48708)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 61401)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 767:2)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A letany for St. Omers</title>
+                  <author>Lister, Martin, 1638?-1712.</author>
+               </titleStmt>
+               <extent>1 sheet ([2] p.)   </extent>
+               <publicationStmt>
+                  <publisher>Printed for W. Richard,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1682.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Broadside.</note>
+                  <note>Caption title.</note>
+                  <note>In verse.</note>
+                  <note>A satire.</note>
+                  <note>"Part II from the same hand ..." attributed to Martin Lister.</note>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Broadsides --  England --  London --  17th century</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-11</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-12</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-01</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2010-01</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="poem">
+            <pb facs="tcp:61401:1" rendition="simple:additions"/>
+            <!-- PDF PAGE 121 -->
+            <head>A Letany for St. Omers.</head>
+            <head type="sub">
+               <add>A whiggish thing 27. March .1682.</add>
+            </head>
+            <lg>
+               <l>FROM <hi>Antichriſt</hi> both <hi>Eaſt</hi> and <hi>Weſt,</hi>
+               </l>
+               <l>And <hi>Cardinals</hi> ſo (madly) dreſt;</l>
+               <l>Who bear a <hi>Wooden-Croſs</hi> for <hi>Creſt:</hi>
+               </l>
+               <l>And alſo from a (Northern) <hi>Teſt.</hi>
+               </l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Libera nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>From <hi>Saul,</hi> of very ſtrange <hi>Ambition,</hi>
+               </l>
+               <l>And <hi>Demas,</hi> of the like <hi>Suſpicion:</hi>
+               </l>
+               <l>From <hi>Judas,</hi> with his falſe <hi>Contrition,</hi>
+               </l>
+               <l>And from the <hi>Spaniſh-Inquiſition,</hi>
+               </l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Libera nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>From <hi>Hallifax,</hi> with <hi>Hull</hi> and <hi>Hell;</hi>
+               </l>
+               <l>From Papal <hi>Candle, Book</hi> and <hi>Bell:</hi>
+               </l>
+               <l>From <hi>All</hi> who <hi>Souls</hi> and <hi>Bodies</hi> ſell,</l>
+               <l>And thoſe who cannot <hi>Powder</hi> ſmell,</l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Libera nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>From <hi>Obſervators</hi> that ſo bite us;</l>
+               <l>From <hi>Thompſon</hi> and from <hi>Heraclitus:</hi>
+               </l>
+               <l>Who with their <hi>Satyrs</hi> ſo benight us,</l>
+               <l>And with their <hi>Libels</hi> ſo beſhite us,</l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Libera nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>From that vile <hi>Vermin</hi> of <hi>Aggreſſors,</hi>
+               </l>
+               <l>With <hi>Perſecutors</hi> and <hi>Oppreſſors:</hi>
+               </l>
+               <l>From all <hi>Abhorrers</hi> and <hi>Addreſſors,</hi>
+               </l>
+               <l>Who lead the <hi>Van</hi> of all <hi>Tranſgreſſors,</hi>
+               </l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Libera nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>From Satans <hi>Reuben</hi> in the <hi>Weſt,</hi>
+               </l>
+               <l>Moſt truly ſtiled <hi>Europe</hi>'s <hi>Peſt:</hi>
+               </l>
+               <l>From him that cannot be at <hi>Reſt,</hi>
+               </l>
+               <l>Unleſs that <hi>He</hi> be made his <hi>Gueſt,</hi>
+               </l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Libera nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>From all that do his <hi>Slipper</hi> Kiſs,</l>
+               <l>And ſo his BACKSIDE (ſweetly) miſs:</l>
+               <l>From all will not his <hi>Grandeur</hi> hiſs,</l>
+               <l>And then into his <hi>Slipper</hi> Piſs,</l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Libera nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>From <hi>All</hi> who write him <hi>Holineſs,</hi>
+               </l>
+               <l>And (ſolely) lay on him the <hi>Streſs:</hi>
+               </l>
+               <l>Who ſhould be in a <hi>Tyburn-Dreſs,</hi>
+               </l>
+               <l>For <hi>Burning</hi> of our <hi>Engliſh Beſs,</hi>
+               </l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Libera nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>From all the <hi>Popelins</hi> in the <hi>Tower,</hi>
+               </l>
+               <l>Who there Plot <hi>Murder</hi> every <hi>Hour;</hi>
+               </l>
+               <l>And there may be till <hi>Englands Power</hi>
+               </l>
+               <l>Shall bring on them a Bloody <hi>ſhow'r,</hi>
+               </l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Libera nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>From every one that falſely <hi>Limps;</hi>
+               </l>
+               <l>From Foreign and Domeſtick <hi>Pimps:</hi>
+               </l>
+               <l>From all the Fatal <hi>Newgate Imps,</hi>
+               </l>
+               <l>Who go for <hi>Whales,</hi> yet are but <hi>Shrimps,</hi>
+               </l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Libera nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>From <hi>Popes</hi> the <hi>Greater</hi> and the <hi>Leſſer,</hi>
+               </l>
+               <l>And from a Catholick <hi>Succeſſor:</hi>
+               </l>
+               <l>From (vile) <hi>Le Cheſe</hi> the <hi>French Confeſſor,</hi>
+               </l>
+               <l>Who hates a Proteſtant <hi>Profeſſor,</hi>
+               </l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Libera nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>From <hi>Beelzebub</hi> and his <hi>Flies,</hi>
+               </l>
+               <l>From LUD'S-great <hi>Rector</hi> and his <hi>Ties:</hi>
+               </l>
+               <l>From <hi>Fetter-Lane</hi> and <hi>Holbourn Lies,</hi>
+               </l>
+               <l>And from all <hi>Iriſh Perjuries,</hi>
+               </l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Libera nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>From all thoſe who make <hi>Gold</hi> their <hi>Hope,</hi>
+               </l>
+               <l>And turn all <hi>Truth</hi> into a <hi>Trope:</hi>
+               </l>
+               <l>Yea, from a Curſing, Curſed <hi>Pope,</hi>
+               </l>
+               <l>And that with him deſerve a <hi>Rope,</hi>
+               </l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Libera nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>From all eſpouſing Canting <hi>Notes,</hi>
+               </l>
+               <l>And from all <hi>Cutters</hi> of our <hi>Throats,</hi>
+               </l>
+               <l>From leaky, and tremendous <hi>Boats,</hi>
+               </l>
+               <l>And from all <hi>Enemies</hi> to <hi>Oats,</hi>
+               </l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Libera nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>From all that falſifie their <hi>Stitches,</hi>
+               </l>
+               <l>And from all that which ſo <hi>Bewitches:</hi>
+               </l>
+               <l>From <hi>Women</hi> that will wear the <hi>Breeches,</hi>
+               </l>
+               <l>And from all ſordid <hi>Poliſh Itches,</hi>
+               </l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Libera nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>From <hi>Enemies</hi> unto the <hi>Nation,</hi>
+               </l>
+               <l>Who long to ſee its <hi>Deſolation:</hi>
+               </l>
+               <l>From all who wiſh not our <hi>Salvation,</hi>
+               </l>
+               <l>But <hi>imprecate</hi> their own <hi>Damnation,</hi>
+               </l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Libera nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>From <hi>All</hi> who cannot Sleep with <hi>Homers,</hi>
+               </l>
+               <l>Unleſs they <hi>Sin</hi> to <hi>ſerve</hi> the <hi>Romers:</hi>
+               </l>
+               <l>From all the beardleſs <hi>Boys</hi> at <hi>Omers,</hi>
+               </l>
+               <l>And alſo from all <hi>Bedlam Foamers,</hi>
+               </l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Libera nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>From the <hi>Tantivy</hi> and the <hi>Tory,</hi>
+               </l>
+               <l>Who may not live till they be <hi>Hoary:</hi>
+               </l>
+               <l>All <hi>Truth</hi> they turn into a <hi>Story,</hi>
+               </l>
+               <l>And in their <hi>Wickedneſs</hi> do <hi>Glory,</hi>
+               </l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Libera nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>From all the <hi>Stiflers</hi> of the <hi>Plot,</hi>
+               </l>
+               <l>And from a curſed <hi>Pimping Scot:</hi>
+               </l>
+               <l>With every Foreign filthy <hi>Sot,</hi>
+               </l>
+               <l>Who <hi>meriteth</hi> St. <hi>Tyburns Knot,</hi>
+               </l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Libera nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>From <hi>All</hi> that like to <hi>Rowers</hi> be,</l>
+               <l>Who one way <hi>Row,</hi> another <hi>See:</hi>
+               </l>
+               <l>Like <hi>Thoſe</hi> once at the <hi>Iſle</hi> of <hi>Ree,</hi>
+               </l>
+               <l>And from a <hi>Goſpel-Index</hi> Flee,</l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Libera nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <pb facs="tcp:61401:2" rendition="simple:additions"/>
+               <!-- PDF PAGE 122 -->
+               <l>From <hi>Frenchified Flouts</hi> and <hi>Flams;</hi>
+               </l>
+               <l>From <hi>Romiſh Tygers</hi> and their Dams:</l>
+               <l>From vile <hi>Projectors</hi> of the <hi>Shams,</hi>
+               </l>
+               <l>Wo act like <hi>Wolves,</hi> but not like <hi>Lambs,</hi>
+               </l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Libera nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>From <hi>Godfrey</hi> that <hi>Himſelf</hi> did <hi>kill,</hi>
+               </l>
+               <l>A Popiſh <hi>Malice</hi> to <hi>fulfil;</hi>
+               </l>
+               <l>And then went to <hi>GREEN B<g ref="char:V">Ʋ</g>RY-HILL,</hi>
+               </l>
+               <l>To <hi>pierce</hi> his <hi>Heart,</hi> but no <hi>Blood</hi> ſpill,</l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Libera nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>From Bloody <hi>Cain</hi> who <hi>Abel</hi> ſlew,</l>
+               <l>And little reaſon for it <hi>knew:</hi>
+               </l>
+               <l>Yea from an <hi>Arnoldizing Crew,</hi>
+               </l>
+               <l>Who would in <hi>Blood</hi> their <hi>Hands</hi> imbrue,</l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Libera nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>From <hi>Thoſe</hi> that like the <hi>Spider</hi> ſpin,</l>
+               <l>And alſo think they have no <hi>Sin:</hi>
+               </l>
+               <l>From <hi>Chaſtity</hi> in <hi>Orange</hi>-GWYN,</l>
+               <l>And bloody <hi>Bonners</hi> of Squire THYN,</l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Libera nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>From all upon a <hi>Papal-Bench,</hi>
+               </l>
+               <l>With all the <hi>Maſquerading-French:</hi>
+               </l>
+               <l>And alſo from that Foreign WENCH,</l>
+               <l>Who leaves behind her ſuch a <hi>Stench,</hi>
+               </l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Liberà nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>From <hi>Jeſuits</hi> with <hi>Monks</hi> and <hi>Friars,</hi>
+               </l>
+               <l>Long unto <hi>Europe</hi> pricking <hi>Briars;</hi>
+               </l>
+               <l>Who always are ſuch cruel <hi>Tryers,</hi>
+               </l>
+               <l>And of MANKIND the greateſt <hi>Liars,</hi>
+               </l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Libera nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>From all the <hi>Fury</hi> of the <hi>Stags,</hi>
+               </l>
+               <l>And from a <hi>Fire</hi> that's made of <hi>Flags:</hi>
+               </l>
+               <l>From <hi>Them</hi> who give to Children <hi>Bags,</hi>
+               </l>
+               <l>And after go <hi>Themſelves</hi> in <hi>Rags,</hi>
+               </l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Libera nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>From euery flagitious <hi>Iſh,</hi>
+               </l>
+               <l>That <hi>Ruine</hi> unto others <hi>wiſh,</hi>
+               </l>
+               <l>And cannot ſit down with one <hi>Diſh,</hi>
+               </l>
+               <l>Nor yet diſtinguiſh <hi>Fleſh</hi> from <hi>Fiſh,</hi>
+               </l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Libera nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>From <hi>All</hi> that <hi>dread</hi> a <hi>Parliament,</hi>
+               </l>
+               <l>Leſt <hi>They</hi> be called to <hi>repent,</hi>
+               </l>
+               <l>And then be unto <hi>Newgate</hi> ſent,</l>
+               <l>There <hi>(Romiſhly)</hi> to keep a <hi>Lent,</hi>
+               </l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Libera nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>From <hi>Bedlam</hi> and from <hi>Billingsgate;</hi>
+               </l>
+               <l>From <hi>Almanacks</hi> now out of <hi>date:</hi>
+               </l>
+               <l>From <hi>Iriſh-Evidence</hi> ſo <hi>late,</hi>
+               </l>
+               <l>And alſo from a <hi>Newgate Grate,</hi>
+               </l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Libera nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>From PENTIONERS thoſe ſpurious <hi>Elves,</hi>
+               </l>
+               <l>Who <hi>Others</hi> ſ<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ll to keep <hi>Themſelves;</hi>
+               </l>
+               <l>In danger are of <hi>Rocks</hi> and <hi>Shelves,</hi>
+               </l>
+               <l>And may be brought before their <hi>Twelves,</hi>
+               </l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Libera nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>From that Prodigious <hi>Sweediſh Count,</hi>
+               </l>
+               <l>Who did eſcape a <hi>Pall-Mall-Mount,</hi>
+               </l>
+               <l>And turn his <hi>Guinneys</hi> to <hi>Account,</hi>
+               </l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Libera nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>From every <hi>May-Pole-houſe</hi> of <hi>Slaughter,</hi>
+               </l>
+               <l>And that <hi>Juſt-Aſs</hi> (a <hi>Man</hi> of <hi>Laughter:</hi>)</l>
+               <l>That none like <hi>Him</hi> may be <hi>hereafter,</hi>
+               </l>
+               <l>To be a PIMP unto his DAUGHTER,</l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Libera nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>From every one within the <hi>Land,</hi>
+               </l>
+               <l>With <hi>Jacobs</hi> Voice and <hi>Eſau</hi>'s Hand;</l>
+               <l>Who unto <hi>Others</hi> gives <hi>Command,</hi>
+               </l>
+               <l>But doth <hi>Himſelf</hi> not <hi>underſtand,</hi>
+               </l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Libera nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>From every daring dreading <hi>Switzer,</hi>
+               </l>
+               <l>Not drinking in a <hi>Pint,</hi> but <hi>Pitcher:</hi>
+               </l>
+               <l>From GADBURY a Louſy <hi>Stitcher,</hi>
+               </l>
+               <l>But now of <hi>Nabals</hi> the <hi>Bewitcher,</hi>
+               </l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Libera nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>From Foreign and Domeſtick <hi>Paws,</hi>
+               </l>
+               <l>With <hi>Trucklers</hi> unto <hi>Romiſh Laws:</hi>
+               </l>
+               <l>From all <hi>Magpies, Rocks</hi> and <hi>Jack-Daws,</hi>
+               </l>
+               <l>That ſpend much time to gather <hi>Straws,</hi>
+               </l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Libera nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>From <hi>All</hi> who <hi>Vices</hi> vilely <hi>link,</hi>
+               </l>
+               <l>That one thing <hi>ſpeak,</hi> another <hi>think:</hi>
+               </l>
+               <l>Theſe ſtand upon a fatal <hi>Brink,</hi>
+               </l>
+               <l>And <hi>Healths</hi> to <hi>Pope</hi> and <hi>Devil</hi> drink,</l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Libera nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>From every <hi>Romiſh Pain</hi> and <hi>Pang,</hi>
+               </l>
+               <l>With <hi>All</hi> that from the <hi>Devil</hi> ſprang:</l>
+               <l>From Madam POWIS, and her <hi>Gang,</hi>
+               </l>
+               <l>Who <hi>Plot</hi> till <hi>They</hi> at <hi>Tyburn</hi> Hang.</l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Libera nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>From all that <hi>Light</hi> for <hi>Darkneſs</hi> put;</l>
+               <l>From Gammar <hi>Gibſon</hi> and her <hi>Glut:</hi>
+               </l>
+               <l>From CELLIERS that <hi>Midwife-Slut,</hi>
+               </l>
+               <l>Whom <hi>Dangerfield</hi> doth ſo <hi>beſquirt,</hi>
+               </l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Libera nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>From ALL who <hi>Live</hi> Epitomized,</l>
+               <l>And ALL that <hi>Die</hi> Hyperbolized;</l>
+               <l>Who were (with) TREASON ſtigmatized,</l>
+               <l>And are (for) TREASON Canonized,</l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Libera nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>From ALL that put into the <hi>Boot,</hi>
+               </l>
+               <l>Unto the loſs of <hi>Leg</hi> and <hi>Foot:</hi>
+               </l>
+               <l>Who at NON CONS their Arrows <hi>ſhoot,</hi>
+               </l>
+               <l>And grow (like <hi>Toad-ſtools</hi>) without <hi>Root,</hi>
+               </l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Libera nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>From every Curſing, Swearing <hi>Carter,</hi>
+               </l>
+               <l>And from ROGER, that old <hi>Crack-farter:</hi>
+               </l>
+               <l>From <hi>All</hi> would <hi>Burn</hi> the <hi>City-Charter,</hi>
+               </l>
+               <l>And unto <hi>Whigs</hi> would give no <hi>Quarter,</hi>
+               </l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Libera nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>From <hi>Bloody</hi> PAPISTS without <hi>Pity,</hi>
+               </l>
+               <l>Who were the <hi>Burners</hi> of the <hi>City:</hi>
+               </l>
+               <l>From <hi>All</hi> who think <hi>Themſelves</hi> too <hi>witty,</hi>
+               </l>
+               <l>And will not <hi>Buy</hi> this (harmleſs) <hi>Ditty,</hi>
+               </l>
+               <lg type="refrain">
+                  <l>
+                     <hi>Libera nos,</hi> &amp;c.</l>
+               </lg>
+            </lg>
+         </div>
+      </body>
+      <back>
+         <div type="colophon">
+            <p>
+               <hi>LONDON: Printed for</hi> W. Richard, 1682.</p>
+         </div>
+      </back>
+   </text>
+</TEI>
